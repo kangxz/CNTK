@@ -5,7 +5,8 @@
 #pragma once
 
 #ifdef USE_MKL
-#define USE_MKLDNN
+// disable MKLDNN for now, due to convolution accuracy issue
+//#define USE_MKLDNN
 #endif
 
 #ifdef USE_MKLDNN
